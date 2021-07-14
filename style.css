@@ -1,0 +1,245 @@
+/* google font */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* google font end */
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 4000px;
+
+}
+.blog{
+    background-color: #2d25a0;
+    width: 1450px;
+    height: 677px;
+}
+.banner{
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1143.01px;
+    height: 456px;
+
+}
+
+.banner-titles{
+    margin: 207px 102px 27px 156px;
+}
+
+.conmebol{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    font-style: normal;
+    color: white;
+   
+}
+
+.link{
+    width: 168px;
+    height: 144px;
+    padding: 10px 24px 10px 24px;
+    background-color: #e02c6d;
+    border-radius: 5px;
+
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px 0 0;
+
+}
+.link i{
+    color: white;
+}
+
+.banner-photo img{
+    width: 100%;
+
+
+}
+.banner-photo{
+    margin: 153px 140px 86px 0;
+     
+    width: 556.01px;
+    height:438px ;
+}
+
+/*----------------- 
+style for main-album
+------------------- 1 */
+
+.section-default{
+    margin: 70px 210px 156px 180px;
+}
+
+.main-album-1{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    
+}
+.player-blog{
+    width: 330px;
+    height: 474px;
+    padding: 15px ;
+    background:#ddd;
+}
+.player-sub-blog{
+    padding: 15px 15px 18px 15px;
+}
+.player-image{ 
+    width: 300px;
+    height: 256px;
+    margin: 0 0 16px 0;
+
+}
+.player-image img{
+    width: 100%;
+}
+.about-player{
+    width: 300px;
+    height: 154px;
+}
+.about-player h1{
+    height: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.about-player p{
+    height: 140px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+    color: #6c6c6c;
+}
+
+/* 
+--------------------------
+style for album-2 player
+-------------------------- */
+.main-album-2{
+    display: grid;
+    grid-template-rows:repeat(3,1fr);
+
+    grid-row-gap: 27px;
+    
+}
+ /* --------------------
+ style for special div 
+ ---------------------*/
+
+
+
+.special-album{
+   display: grid;
+   grid-template-rows:1fr 1fr; 
+   grid-row-gap: 5px;
+   
+}
+
+.special{
+    height: 5px;
+    width: 5px;
+}
+
+/* style for section-2 */
+.mesi-and-blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.highlight-link h1{
+
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    font-style: normal;
+    color:black; 
+
+}
+
+.highlight-link p{
+    height: 140px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+    color: #6c6c6c;
+    margin-bottom: 40px;
+}
+
+.final-match{
+    margin: 100px 156px 158px 0;
+
+}
+.highlight-link{
+    width: 469px;
+    height: 309px;
+    margin: 0px 66px 217px 182px;
+}
+
+
+/* footer start */
+.copyright-div{
+    height: 213px;
+    width: 483.87px;
+    margin: 0 483.065px 63px 483.065px;
+}
+
+.logo{
+    height: 110px;
+    width: 483.87px;
+}
+.logo img{
+    width: 100%;
+    position: relative;
+}
+.social-icon{
+    
+    height: 32px;
+    width: 170px;
+     margin:106.5px 241.93px 0 241.93px;
+
+
+}
+
+.social-icon p{
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: normal;
+    color: #6c6c6c;
+    height: 31px;
+    width: 236px;
+    margin: 0;
+    
+}
+
+.social-icon span{
+margin-top: 5px;
+color: #fff;
+font-size: 26px;
+height: 100px;
+width: 100px;
+display: inline;
+text-align: center;
+line-height: 100px;
+border-radius: 50%;
+}
+.fab{
+    color: steelblue;
+}
